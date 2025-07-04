@@ -8,7 +8,7 @@ const testimonials = [
     role: 'CEO, Blackwood Enterprises',
     company: 'Fortune 500 Company',
     rating: 5,
-    text: 'Maroon Studio elevated our brand to new heights. Their sophisticated approach and attention to detail is unmatched.',
+    text: 'Huperballo Graphics elevated our brand to new heights. Their sophisticated approach and attention to detail is unmatched.',
     image: 'https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg?auto=compress&cs=tinysrgb&w=400'
   },
   {
@@ -135,7 +135,7 @@ const Testimonials = () => {
             </div>
             <div className="w-px h-6 bg-slate-300" />
             <div className="text-slate-600">
-              Based on 120+ client reviews
+              Based on 100+ client reviews
             </div>
           </div>
         </motion.div>

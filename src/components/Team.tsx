@@ -4,29 +4,29 @@ import { Twitter, Linkedin, Instagram } from 'lucide-react';
 
 const teamMembers = [
   {
-    name: 'Victoria Sterling',
-    role: 'Creative Director',
-    bio: 'Visionary leader with 15+ years crafting sophisticated brand experiences for luxury clients.',
+    name: 'Wambi Joshua',
+    role: 'Executive Director',
+    bio: 'Visionary leader with 3+ years crafting sophisticated brand experiences for luxury clients.',
     image: 'https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400',
     social: { twitter: '#', linkedin: '#', instagram: '#' }
   },
   {
-    name: 'Alexander Chen',
+    name: 'Kakooza Yusufu Ali',
     role: 'Senior Designer',
     bio: 'Master of visual storytelling with expertise in creating compelling brand narratives.',
     image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=400',
     social: { twitter: '#', linkedin: '#', instagram: '#' }
   },
   {
-    name: 'Isabella Martinez',
-    role: 'Brand Strategist',
+    name: 'Daphy Abinakyo',
+    role: 'Accountant',
     bio: 'Strategic thinker who transforms business objectives into powerful brand positioning.',
     image: 'https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=400',
     social: { twitter: '#', linkedin: '#', instagram: '#' }
   },
   {
-    name: 'James Wellington',
-    role: 'Art Director',
+    name: 'Victor Tumwesigye',
+    role: 'Graphics Designer',
     bio: 'Perfectionist who brings artistic vision to life through meticulous attention to detail.',
     image: 'https://images.pexels.com/photos/1212984/pexels-photo-1212984.jpeg?auto=compress&cs=tinysrgb&w=400',
     social: { twitter: '#', linkedin: '#', instagram: '#' }

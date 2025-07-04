@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X, Palette } from 'lucide-react';
+import sitelogo from '../site_images/home logo color.svg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,15 +16,12 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <motion.div
-            whileHover={{ scale: 1.05 }}
+           
             className="flex items-center space-x-3"
           >
-            <div className="w-10 h-10 bg-gradient-to-br from-red-900 to-red-800 rounded-xl flex items-center justify-center">
-              <Palette className="text-white" size={20} />
-            </div>
-            <span className="text-2xl font-bold bg-gradient-to-r from-red-900 to-red-700 bg-clip-text text-transparent">
-              Huperballo Graphics
-            </span>
+            
+            <img src={sitelogo} width={140} height={140} />
+
           </motion.div>
 
           {/* Desktop Navigation */}

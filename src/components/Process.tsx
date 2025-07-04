@@ -7,25 +7,25 @@ const processSteps = [
     icon: MessageCircle,
     title: 'Discovery',
     description: 'We begin with deep research to understand your brand, market position, and strategic objectives.',
-    details: ['Brand Audit', 'Market Analysis', 'Stakeholder Interviews', 'Competitive Research']
+    details: ['Brand Audit', 'Market Analysis', 'Stakeholder Interviews']
   },
   {
     icon: Lightbulb,
     title: 'Strategy',
     description: 'We develop a comprehensive creative strategy that aligns with your business goals and vision.',
-    details: ['Creative Brief', 'Brand Strategy', 'Design Direction', 'Content Strategy']
+    details: ['Creative Brief', 'Brand Strategy', 'Design Direction']
   },
   {
     icon: Palette,
     title: 'Design',
     description: 'Our expert team crafts sophisticated designs through iterative refinement and collaboration.',
-    details: ['Concept Development', 'Design Execution', 'Client Collaboration', 'Design Refinement']
+    details: ['Concept Development', 'Design Execution', 'Client Collaboration']
   },
   {
     icon: Rocket,
-    title: 'Launch',
+    title: 'Delivery',
     description: 'We ensure flawless execution and provide ongoing support for successful implementation.',
-    details: ['Final Production', 'Quality Assurance', 'Launch Support', 'Brand Guidelines']
+    details: ['Printing', 'Quality Assurance', 'Delivery']
   }
 ];
 

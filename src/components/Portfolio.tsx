@@ -5,45 +5,45 @@ import { ExternalLink, Eye } from 'lucide-react';
 const portfolioItems = [
   {
     id: 1,
-    title: 'Luxe Fashion Brand',
-    category: 'Brand Identity',
-    image: 'https://images.pexels.com/photos/1884581/pexels-photo-1884581.jpeg?auto=compress&cs=tinysrgb&w=800',
+    title: 'Unquie Design Services',
+    category: 'Graphic Design',
+    image: 'https://i.pinimg.com/736x/88/f9/20/88f920a22f93e03a2cfefdfc1e342d12.jpg',
     description: 'Sophisticated brand identity for a luxury fashion house with timeless elegance.'
   },
   {
     id: 2,
-    title: 'Heritage Restaurant',
-    category: 'Web Design',
-    image: 'https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=800',
+    title: 'Office space designs',
+    category: 'Office Branding',
+    image: 'https://i.pinimg.com/736x/ef/9f/e4/ef9fe48282131621c7686daddcce55ac.jpg',
     description: 'Premium restaurant website showcasing culinary excellence and ambiance.'
   },
   {
     id: 3,
-    title: 'Executive Banking App',
-    category: 'Mobile App',
-    image: 'https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=800',
+    title: 'Express color',
+    category: 'Large Format Printing',
+    image: 'https://i.pinimg.com/736x/0a/47/f0/0a47f067aa1f55c2b96dd305ef4f84ca.jpg',
     description: 'Sophisticated mobile banking interface for high-net-worth individuals.'
   },
   {
     id: 4,
-    title: 'Artisan Wine Collection',
-    category: 'Packaging',
-    image: 'https://images.pexels.com/photos/1407846/pexels-photo-1407846.jpeg?auto=compress&cs=tinysrgb&w=800',
+    title: 'BillBoard Prints',
+    category: 'Outside Branding',
+    image: 'https://i.pinimg.com/736x/16/ef/15/16ef15fd0f86c71c10d6509cd2f36704.jpg',
     description: 'Premium wine packaging that reflects heritage and craftsmanship.'
   },
   {
     id: 5,
-    title: 'Corporate Campaign',
-    category: 'Photography',
-    image: 'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=800',
+    title: 'Brand Identity',
+    category: 'Business Cards',
+    image: 'https://i.pinimg.com/736x/08/52/c2/0852c2f39a620047634cdf5b4b8d28ae.jpg',
     description: 'Executive portrait series for a Fortune 500 company rebrand.'
   },
   {
     id: 6,
-    title: 'Digital Strategy',
-    category: 'Digital Marketing',
-    image: 'https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800',
-    description: 'Comprehensive digital marketing suite for a tech startup launch.'
+    title: 'Social Media Poster designs',
+    category: 'E-Fliers',
+    image: 'https://i.pinimg.com/736x/a6/75/49/a675496874f7311871992f064afac8ba.jpg',
+    description: 'Digital marketing resources for business.'
   }
 ];
 

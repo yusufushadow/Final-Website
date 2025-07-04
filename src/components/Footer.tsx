@@ -1,33 +1,21 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Palette, Twitter, Facebook, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import sitelogo from '../site_images/home logo color.svg';
 
 const Footer = () => {
   const footerLinks = {
     'Services': [
-      'Brand Identity',
-      'Web Design',
-      'Mobile Apps',
-      'Packaging Design',
-      'Digital Marketing',
-      'Photography'
+      'Large Fomat Printing',
+      'Graphic Design',
+      'Offset'
     ],
     'Company': [
       'About Us',
       'Our Team',
-      'Careers',
-      'Awards',
-      'Case Studies',
-      'Contact'
+      'Contact Us'
     ],
-    'Resources': [
-      'Design Process',
-      'Brand Guidelines',
-      'Design Insights',
-      'Industry Reports',
-      'Client Portal',
-      'Support'
-    ]
+
   };
 
   return (
@@ -37,30 +25,24 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-10 h-10 bg-gradient-to-br from-red-900 to-red-700 rounded-xl flex items-center justify-center">
-                <Palette className="text-white" size={20} />
-              </div>
-              <span className="text-2xl font-bold bg-gradient-to-r from-red-400 to-red-300 bg-clip-text text-transparent">
-                Maroon Studio
-              </span>
+           <img src={sitelogo} width={140} height={140}/>
             </div>
             <p className="text-slate-400 mb-6 leading-relaxed max-w-md">
-              We are a distinguished design agency dedicated to crafting 
-              sophisticated visual experiences that elevate brands and inspire audiences.
+            We use cutting-edge printing tech to deliver vibrance.
             </p>
             
             <div className="space-y-3 mb-6">
               <div className="flex items-center space-x-3 text-slate-400">
                 <Mail size={16} />
-                <span>hello@maroonstudio.com</span>
+                <span>huperballographics@gmail.com</span>
               </div>
               <div className="flex items-center space-x-3 text-slate-400">
                 <Phone size={16} />
-                <span>+1 (555) 987-6543</span>
+                <span>+256 779 538199</span>
               </div>
               <div className="flex items-center space-x-3 text-slate-400">
                 <MapPin size={16} />
-                <span>456 Design Avenue, NY 10002</span>
+                <span>Digital Complex, Second Floor Room SS3</span>
               </div>
             </div>
 
@@ -98,35 +80,13 @@ const Footer = () => {
           ))}
         </div>
 
-        {/* Newsletter */}
-        <div className="border-t border-slate-800 pt-8 mb-8">
-          <div className="max-w-md">
-            <h3 className="text-xl font-semibold mb-4">Stay Informed</h3>
-            <p className="text-slate-400 mb-4">
-              Subscribe to receive design insights and industry updates.
-            </p>
-            <div className="flex space-x-3">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-3 bg-slate-800 border border-slate-700 rounded-xl text-white placeholder-slate-400 focus:border-red-900 focus:outline-none"
-              />
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="bg-gradient-to-r from-red-900 to-red-700 px-6 py-3 rounded-xl font-medium hover:shadow-lg transition-all duration-300"
-              >
-                Subscribe
-              </motion.button>
-            </div>
-          </div>
-        </div>
+
 
         {/* Bottom */}
         <div className="border-t border-slate-800 pt-8">
           <div className="flex flex-col md:flex-row items-center justify-between">
             <div className="text-slate-400 text-sm mb-4 md:mb-0">
-              © 2024 Maroon Studio. All rights reserved.
+              © 2025 huperballo graphics. All rights reserved.
             </div>
 
             <div className="flex items-center space-x-6 text-slate-400 text-sm">

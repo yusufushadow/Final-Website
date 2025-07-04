@@ -140,7 +140,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="text-slate-900 font-medium">Email</div>
-                    <div className="text-slate-600">hello@maroonstudio.com</div>
+                    <div className="text-slate-600">huperballographics@gmail.com</div>
                   </div>
                 </div>
 
@@ -150,7 +150,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <div className="text-slate-900 font-medium">Phone</div>
-                    <div className="text-slate-600">+1 (555) 987-6543</div>
+                    <div className="text-slate-600">+256 779 538199</div>
                   </div>
                 </div>
 
@@ -159,8 +159,8 @@ const Contact = () => {
                     <MapPin className="text-white" size={20} />
                   </div>
                   <div>
-                    <div className="text-slate-900 font-medium">Studio</div>
-                    <div className="text-slate-600">456 Design Avenue<br />Creative Quarter, NY 10002</div>
+                    <div className="text-slate-900 font-medium">Office</div>
+                    <div className="text-slate-600">Digital<br />Complex Second Floor Room SS3</div>
                   </div>
                 </div>
               </div>
@@ -179,27 +179,24 @@ const Contact = () => {
                 whileTap={{ scale: 0.95 }}
                 className="bg-white text-red-900 px-6 py-3 rounded-full font-medium hover:shadow-lg transition-all duration-300"
               >
-                Schedule Consultation
+                Reach Us Today
               </motion.button>
             </div>
 
             <div className="bg-white rounded-3xl p-8 shadow-lg">
               <h3 className="text-xl font-bold text-slate-900 mb-4">
-                Studio Hours
+                Office Hours
               </h3>
               <div className="space-y-2 text-slate-600">
                 <div className="flex justify-between">
                   <span>Monday - Friday</span>
-                  <span>9:00 AM - 6:00 PM</span>
+                  <span>07:00 AM - 8:00 PM</span>
                 </div>
                 <div className="flex justify-between">
                   <span>Saturday</span>
-                  <span>10:00 AM - 4:00 PM</span>
+                  <span>09:00 AM - 7:00 PM</span>
                 </div>
-                <div className="flex justify-between">
-                  <span>Sunday</span>
-                  <span>By Appointment</span>
-                </div>
+
               </div>
             </div>
           </motion.div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Palette, Twitter, Facebook, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
+import {  Twitter, Facebook, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react';
 import sitelogo from '../site_images/home logo color.svg';
 
 const Footer = () => {

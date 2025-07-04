@@ -45,7 +45,7 @@ const Contact = () => {
                   <input
                     type="text"
                     className="w-full px-4 py-3 border border-slate-300 rounded-xl focus:border-red-900 focus:outline-none transition-colors"
-                    placeholder="Victoria"
+                    placeholder="Name"
                   />
                 </div>
                 <div>
@@ -55,7 +55,7 @@ const Contact = () => {
                   <input
                     type="text"
                     className="w-full px-4 py-3 border border-slate-300 rounded-xl focus:border-red-900 focus:outline-none transition-colors"
-                    placeholder="Sterling"
+                    placeholder="Last Name"
                   />
                 </div>
               </div>

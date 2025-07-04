@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Menu, X, Palette } from 'lucide-react';
+import { Menu, X} from 'lucide-react';
 import sitelogo from '../site_images/home logo color.svg';
 
 const Navbar = () => {

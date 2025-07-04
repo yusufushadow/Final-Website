@@ -172,7 +172,7 @@ const Contact = () => {
               </h3>
               <p className="mb-6 opacity-90">
                 We're excited to learn about your project and discuss how we can 
-                elevate your brand to new heights of sophistication.
+                elevate your brand to new heights of sophistication
               </p>
               <motion.button
                 whileHover={{ scale: 1.05 }}
